@@ -8,7 +8,8 @@ export default {
     extend: {
       backgroundImage: {
         'bg-header-mobile': "url('./src/assets/Tattoo Studio.png')",
-        'bg-header-desk': "url('./src/assets/Tattoo Studio.png')"
+        'bg-header-desk': "url('./src/assets/Tattoo Studio.png')",
+        'bg-Primary':"url('./src/assets/BgPrimary.png')"
       }
     },
   },
