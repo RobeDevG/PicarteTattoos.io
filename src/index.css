@@ -91,10 +91,10 @@
   pointer-events: none;
 }
 .text_shadow{
-  text-shadow: 4px 4px 1px black;
+  filter: drop-shadow(4px 4px 1px black) 
 }
 .text_shadow_B{
-  text-shadow: 4px 8px 4px black
+  filter: drop-shadow(4px 8px 4px black) 
 }
 .swiper-button-next,
 .swiper-button-prev{

@@ -1,18 +1,23 @@
 {
-    "nav":{
-        "text_1":"Inicio",
-        "text_2":"El Estudio",
-        "text_3":"Cuidados",
-        "text_4":"Trabajos+",
-        "text_5":"Contacto",
-        "text_6":"ESPAÑOL"
+    "nav": {
+        "text_1": "Inicio",
+        "text_2": "El Estudio",
+        "text_3": "Cuidados",
+        "text_4": "Trabajos+",
+        "text_5": "Contacto",
+        "text_6": "ESPAÑOL"
     },
-    "welcome":{
-        "text_1":"BIENVENIDOS A LA WEB DEL ESTUDIO ``PICARTE TATTOOS´´",
-        "text_2":"Donde la tinta corre todos los días...",
-        "text_3":"Si te gustaría concertar una cita con nosotros, ve directamente a nuestra página de contacto y dinos por teléfono, email o Whatsapp que te gustaría hacerte.",
-        "text_4":"Si lo que buscas es inspiración, no dudes en visitar nuestras galerías en las secciones tattoo",
-        "text_5":"No te olvides tampoco de ver nuestros consejos sobre los cuidados higiénicos para tattoos.",
-        "text_6":"Saca Tu Cita"
+    "welcome": {
+        "text_1": "BIENVENIDOS A LA WEB DEL ESTUDIO ``PICARTE TATTOOS´´",
+        "text_2": "Donde la tinta corre todos los días...",
+        "text_3": "Si te gustaría concertar una cita con nosotros, ve directamente a nuestra página de contacto y dinos por teléfono, email o Whatsapp que te gustaría hacerte.",
+        "text_4": "Si lo que buscas es inspiración, no dudes en visitar nuestras galerías en las secciones tattoo",
+        "text_5": "No te olvides tampoco de ver nuestros consejos sobre los cuidados higiénicos para tattoos.",
+        "text_6": "Saca Tu Cita"
+    },
+    "Banner": "ESTUDIO ARTISTICO DE TATUAJES",
+    "Info": {
+        "h2": "Conoce a Picarte Tattoos",
+        "text":" PICARTE TATTOOS es un estudio artístico de tatuajes y piercing fundado en 2015 bajo el pseudónimo de su fundador, Leonel. Desde sus comienzos como tatuador, y desde la fecha de la apertura de el estudio, Picarte Tattoo se ha posicionado en la provincia de Mtànzas como un referente gracias a la calidad artística y técnica de sus tatuajes .El Artista cuenta con amplia experiencia en todo tipo de estilos, desde lo más vintage a lo más rompedor y contemporáneo. Desde nuestra web, esperamos que descubras la inspiración en nuestros trabajos y te animes a visitarnos para contarnos que te gustaría hacerte. "
     }
 }
