@@ -30,15 +30,15 @@ function Nav() {
 
       <div className={`w-full h-screen bg-bg-Primary fixed -z-10 bg-no-repeat bg-center bg-cover top-0 left-0 flex justify-center duration-300 items-center  ${isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-40"}`}>
         <div className='flex flex-col text-center text-4xl gap-8 text-white'>
-          <a className='hover_anime' href="">{t("nav.text_1")}</a>
-          <a className='hover_anime' href="">{t("nav.text_2")}</a>
-          <a className='hover_anime' href="">{t("nav.text_3")}</a>
-          <a className='hover_anime' href="">{t("nav.text_4")}</a>
-          <a className='mb-4 relative border_before hover_anime' href="">{t("nav.text_5")}</a>
+          <a className='font-custom-font' href="">{t("nav.text_1")}</a>
+          <a className='font-custom-font' href="">{t("nav.text_2")}</a>
+          <a className='font-custom-font' href="">{t("nav.text_3")}</a>
+          <a className='font-custom-font' href="">{t("nav.text_4")}</a>
+          <a className='mb-4 relative border_before font-custom-font' href="">{t("nav.text_5")}</a>
           <div className='relative'>
           <input type="checkbox" id='idioma' className='hidden check' onChange={() => i18n.changeLanguage(i18n.language === "es" ? "en" : "es")} />
-                <label className='absolute top-0 -left-10 flex items-center cursor-pointer on duration-300 hover_anime' htmlFor="idioma" ><img className='' width={"50px"} src={GreatBritain} alt="" /> {t("nav.text_6")}</label>
-                <label className='absolute top-0 -left-10 flex items-center cursor-pointer of duration-300 hover_anime' htmlFor="idioma" ><img className=''  width={"50px"} src={SpainFlag} alt="" />{t("nav.text_6")}</label>
+                <label className='absolute top-0 -left-10 flex items-center cursor-pointer on duration-300 font-custom-font' htmlFor="idioma" ><img className='' width={"50px"} src={GreatBritain} alt="" /> {t("nav.text_6")}</label>
+                <label className='absolute top-0 -left-10 flex items-center cursor-pointer of duration-300 font-custom-font' htmlFor="idioma" ><img className=''  width={"50px"} src={SpainFlag} alt="" />{t("nav.text_6")}</label>
           </div>
         </div>
       </div>
