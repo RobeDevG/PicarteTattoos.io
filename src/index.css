@@ -85,5 +85,11 @@
   position: absolute;
   bottom: -30px;
   width: 100%;
-  
+  pointer-events: none;
+}
+
+@media (hover:hover){
+  .hover_anime:hover{
+    scale: 1.03;
+  }
 }
