@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -102,4 +105,11 @@
 }
 .swiper-pagination-bullet-active{
   background-color: white;
+}
+.swiper-review{
+  max-width: 475px;
+  height: 230px;
+}
+.linear-slider{
+  transition-timing-function: linear;
 }
