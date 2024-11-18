@@ -6,8 +6,10 @@ import 'swiper/css/pagination';
 
 import foto2 from '../assets/foto2.png'
 import foto3 from '../assets/foto3.png'
-import foto4 from '../assets/foto4.png'
-
+import SliderFoto_1 from '../assets/SliderFoto_1.png'
+import SliderFoto_2 from '../assets/SliderFoto_2.png'
+import SliderFoto_3 from '../assets/SliderFoto_3.png'
+import SliderFoto_4 from '../assets/SliderFoto_4.png'
 export default function Slaider() {
   return (
 
@@ -26,11 +28,11 @@ export default function Slaider() {
     >
 
       <SwiperSlide><img src={foto2} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={foto2} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={SliderFoto_1} alt="" /></SwiperSlide>
       <SwiperSlide><img src={foto3} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={foto4} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={foto4} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={foto4} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={SliderFoto_3} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={SliderFoto_2} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={SliderFoto_4} alt="" /></SwiperSlide>
 
     </Swiper>
 
