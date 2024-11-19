@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -120,4 +120,10 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
 
   background: rgba(22, 21, 21, 0.66);
+}
+.gradient{
+  fill: linear-gradient(0deg, rgba(0, 0, 0, 0.67) 77.3%, rgba(102, 102, 102, 0.67) 100%);
+}
+.numbs{
+ max-width: 960px;
 }

@@ -20,7 +20,8 @@ export default {
       fontFamily:{
         "custom-font": ["Kenia", "sans-serif"],
         "font-slider":["ABeeZee", "sans-serif"],
-        "font-footer":["Aboreto", "system-ui"]
+        "font-footer":["Aboreto", "system-ui"],
+        "font-Kelly":["Kelly Slab", "sans-serif"]
       }
     },
   },

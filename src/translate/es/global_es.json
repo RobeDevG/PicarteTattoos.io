@@ -27,7 +27,8 @@
         "text_1":"Fundación y nombre del estudio Picarte Tattoo y su artista que lleva dedicándose en cuerpo y alma al mundo del tatuaje desde el año2015. El local abrió al publico en 2016, y la actual localización lleva acomodando al equipo desde 2017 con una instalacion mas amplia y moderna, disponiendo en total de 1 sala de tatuaje con aire acondicionado y otras comodidades"
     },
     "TattooAftercare":{
-        "h2":"Cuidados Tattoo Consejos y recomendaciones",
+        "h2":"Cuidados Tattoo",
+        "span":"Consejos y recomendaciones",
         "text":"Es fundamental seguir los consejos que te dé tu tatuador para cuidar tu nuevo tatuaje, no es recomendable ignorarlos si quieres lucir un tatuaje que perdure y que te haga sentir que tu inversión valió la pena. Cuando te vas del estudio te haces responsable de tu tatuaje y con el tiempo se podrá ver si recibió los cuidados necesarios durante el proceso de curación. No es posible evitar el proceso de cicatrización, pero puedes lograr por medio de tus cuidados que al final quede en tu cuerpo una excelente obra de arte.",
         "text_1":"Después de tatuarte ",
         "span_1":"Quítate el vendaje colocado por el tatuador cuando pasen 5 horas",
@@ -44,7 +45,12 @@
         "text_7":"Cuida tu tatuaje",
         "span_7":"NO rozar ni frotar ni rascar el tatuaje.",
         "text_8":"Sudor y ejercicio",
-        "span_8":"Evitar sudar (ejercicio, etc.) durante dos semanas."
+        "span_8":"Evitar sudar (ejercicio, etc.) durante dos semanas.",
+
+        "imp":"Muy importante",
+        "p":"No se realizaran tatuajes ni piercings a mujeres embarazadas.",
+        "p2":"No se realizaran ni tatuajes ni piercings a menores de 16 años.",
+        "p3":"En caso de ser portador de hepatitis B, VHI o cualquier enfermedad contagiosa, por favor comuníquelo"
     }
 
 }
