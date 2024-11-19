@@ -34,7 +34,7 @@ function Nav() {
           <NavLink to='/' className='font-custom-font' href="">{t("nav.text_1")}</NavLink>
           <NavLink to='/TattooStudio' className='font-custom-font' href="">{t("nav.text_2")}</NavLink>
           <NavLink to='/TattooAftercare' className='font-custom-font' href="">{t("nav.text_3")}</NavLink>
-          <a className='font-custom-font' href="">{t("nav.text_4")}</a>
+          <NavLink to='/Jobs' className='font-custom-font' href="">{t("nav.text_4")}</NavLink>
           <a className='mb-4 relative border_before font-custom-font' href="">{t("nav.text_5")}</a>
           <div className='relative'>
           <input type="checkbox" id='idioma' className='hidden check' onChange={() => i18n.changeLanguage(i18n.language === "es" ? "en" : "es")} />
