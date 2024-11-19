@@ -1,27 +1,21 @@
 
 import './App.css'
-import Header from './component/Header'
-import Welcome from './component/Welcome'
-import Slaider from './component/Slaider'
-import Banner from './component/Banner'
-import Info from './component/Info'
-import Review from './component/Review'
-import Video from './component/Video'
-import Footer from './component/Footer'
+import Home from './pages/Home'
+import TattooStudio from './pages/TattooStudio'
+import TattooAftercare from './pages/TattooAftercare'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
-  
+
   return (
-   <div>
-    <Header/>
-    <Welcome/>
-    <Slaider/>
-    <Banner/>
-    <Info/>
-    <Review/>
-    <Video/>
-    <Footer/>
-   </div>
+    <BrowserRouter>
+
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/TattooStudio' element={<TattooStudio/>}/>
+        <Route path='/TattooAftercare' element={<TattooAftercare/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

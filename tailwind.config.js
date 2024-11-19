@@ -11,7 +11,11 @@ export default {
         'bg-header-desk': "url('./src/assets/Tattoo Studio.png')",
         'bg-Primary':"url('./src/assets/BgPrimary.png')",
         'bg-Banner':"url('./src/assets/Banner.png')",
-        'bg-Review':"url('./src/assets/Review.png')"
+        'bg-Review':"url('./src/assets/Review.png')",
+        'bg-Banner_2':"url('./src/assets/Banner_2.png')",
+        'bg-Study':"url('./src/assets/bgstudy.png')",
+        'bg-Care':"url('./src/assets/BannerCuidados.png')"
+
       },
       fontFamily:{
         "custom-font": ["Kenia", "sans-serif"],
