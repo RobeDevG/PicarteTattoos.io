@@ -1,4 +1,3 @@
-import Nav from "../component/Nav"
 import Elestudio from '../assets/Elestudio.png'
 import { useTranslation } from "react-i18next"
 function TattooStudio() {
@@ -7,7 +6,6 @@ function TattooStudio() {
 
   return (
     <section>
-      <Nav />
       <div className="bg-bg-Banner_2 bg-cover bg-no-repeat bg-center h-80"></div>
       <div className="shadow-bg bg-bg-Study bg-cover bg-no-repeat bg-center flex lg:flex-row flex-col-reverse lg:pt-16 lg:pb-32 items-center justify-center lg:justify-normal lg:items-start">
         <img className="lg:ml-16 lg:mr-8" src={Elestudio} alt="foto del estudio" />

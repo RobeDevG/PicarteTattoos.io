@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import Nav from '../component/Nav'
 
 function Contact() {
 
@@ -7,7 +6,6 @@ function Contact() {
 
   return (
     <section>
-      <Nav/>
       <div className='bg-bg-Contact bg-cover bg-center bg-no-repeat flex justify-center items-center min-h-96'>
         <h2 className='text_shadow text-8xl font-custom-font text-white'>{t("Contact.h2")}</h2>
       </div>

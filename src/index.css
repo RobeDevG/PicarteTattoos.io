@@ -73,18 +73,7 @@
     top: 28px;
     left: 5px;
   }
-  .check:checked~.on{
-    opacity: 1;
-}
-.check:checked~.of{
-    opacity: 0;
-}
-.check:not(:checked)~.on{
-    opacity: 0;
-}
-.check:not(:checked)~.of{
-    opacity: 1;
-}
+
 .border_before::before{
   content: "";
   border: dotted 2px white;

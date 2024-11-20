@@ -1,4 +1,3 @@
-import Nav from '../component/Nav'
 import galery1 from '../assets/galery 1.png'
 import galery2 from '../assets/galery 2.png'
 import galery3 from '../assets/galery 3.png'
@@ -13,7 +12,6 @@ function Jobs() {
 
   return (
     <section className='bg-bg-Primary flex justify-center items-center flex-col text-center'>
-      <Nav />
       <p className='sm:text-8xl text-6xl text_shadow font-custom-font mt-32 text-white'>{t("Jobs")}</p>
       <div className='grid sm:grid-cols-3 mt-8 box-shadow grid-cols-1'>
         <img src={galery1} alt="fotos de galeria" />

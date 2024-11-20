@@ -13,10 +13,12 @@ function Nav() {
 
   const [t, i18n] = useTranslation("global")
   const [isOpen, setIsOpen] = useState(false)
-  const [isChecked, setIsChecked] = useState(false)
-  const handlesClick =()=>{
+  const [isChecked,setIsChecked] =useState(false)
+  const handleClick =()=>{
+    setIsOpen(!isOpen)
     setIsChecked(!isChecked)
   }
+ 
 
 
   return (
@@ -29,23 +31,23 @@ function Nav() {
       </div>
 
       <label className="burger" htmlFor="burger">
-        <input onClick={() => { setIsOpen(!isOpen) }} type="checkbox" id="burger" />
+        <input checked={isChecked} onClick={() => { handleClick() }} type="checkbox" id="burger" />
         <span></span>
         <span></span>
         <span></span>
       </label>
 
       <div className={`w-full h-screen bg-bg-Primary fixed -z-10 bg-no-repeat bg-center bg-cover top-0 left-0 flex justify-center opacity-100 duration-300 items-center  ${isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-40"}`}>
-        <div className='flex flex-col text-center text-4xl gap-8 text-white'>
-          <NavLink to='/' className='font-custom-font' href="">{t("nav.text_1")}</NavLink>
-          <NavLink to='/TattooStudio' className='font-custom-font' href="">{t("nav.text_2")}</NavLink>
-          <NavLink to='/TattooAftercare' className='font-custom-font' href="">{t("nav.text_3")}</NavLink>
-          <NavLink to='/Jobs' className='font-custom-font' href="">{t("nav.text_4")}</NavLink>
-          <NavLink to='/Contact' className='mb-4 relative border_before font-custom-font' href="">{t("nav.text_5")}</NavLink>
+        <div className='flex flex-col text-center text-4xl gap-8 text-white items-center justify-center'>
+          <NavLink to='/' onClick={() => { handleClick() }} className='font-custom-font' href="">{t("nav.text_1")}</NavLink>
+          <NavLink to='/TattooStudio' onClick={() => { handleClick() }} className='font-custom-font' href="">{t("nav.text_2")}</NavLink>
+          <NavLink to='/TattooAftercare' onClick={() => { handleClick() }} className='font-custom-font' href="">{t("nav.text_3")}</NavLink>
+          <NavLink to='/Jobs' onClick={() => { handleClick() }} className='font-custom-font' href="">{t("nav.text_4")}</NavLink>
+          <NavLink to='/Contact' onClick={() => { handleClick() }} className='mb-4 relative border_before font-custom-font' href="">{t("nav.text_5")}</NavLink>
           <div className='relative'>
-            <input type="checkbox" id='idioma' className='hidden check' checked={isChecked} onChange={() => i18n.changeLanguage(i18n.language === "es" ? "en" : "es")} />
-            <label className='absolute top-0 -left-10 flex items-center cursor-pointer on duration-300 font-custom-font' onClick={()=>handlesClick()} htmlFor="idioma" ><img width={"50px"} src={GreatBritain} alt="" /> {t("nav.text_6")}</label>
-            <label className='absolute top-0 -left-10 flex items-center cursor-pointer of duration-300 font-custom-font' onClick={()=>handlesClick()} htmlFor="idioma" ><img width={"50px"} src={SpainFlag} alt="" />{t("nav.text_6")}</label>
+            <input type="checkbox" id='idioma' className=' check hidden' onChange={() => i18n.changeLanguage(i18n.language === "es" ? "en" : "es")} />
+            <label className={`relative flex items-center cursor-pointer duration-300 font-custom-font ${i18n.language === "es" ? "opacity-0 hidden" : "opacity-100 "}`} htmlFor="idioma" ><img className='absolute -left-14' width={"50px"} src={GreatBritain} alt="" /> {t("nav.text_6")}</label>
+            <label className={`relative flex items-center cursor-pointer duration-300 font-custom-font ${i18n.language === "en" ? "opacity-0 hidden" : "opacity-100"}`} htmlFor="idioma" ><img className='absolute -left-14' width={"50px"} src={SpainFlag} alt="" />{t("nav.text_6")}</label>
           </div>
         </div>
       </div>

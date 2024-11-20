@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import Nav from '../component/Nav'
 import Cuidadoss from '../assets/Cuidadoss.png'
 import numeracion1 from '../assets/numeracion 1.png'
 import numeracion2 from '../assets/numeracion 2.png'
@@ -16,7 +15,6 @@ function TattooAftercare() {
 
   return (
     <section>
-      <Nav />
       <div className='h-80  bg-bg-Care flex flex-col items-center justify-center font-custom-font text-white bg-no-repeat bg-center bg-cover'>
         <h2 className='sm:text-8xl text-4xl m-0 p-0 text_shadow'>{t("TattooAftercare.h2")}</h2>
         <p className='sm:text-5xl text-base m-0 p-0 text_shadow'>{t("TattooAftercare.span")}</p>
