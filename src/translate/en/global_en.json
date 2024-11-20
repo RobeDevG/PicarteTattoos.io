@@ -1,3 +1,55 @@
 {
-    "algo":"asd"
+    "nav": {
+        "text_1": "Home",
+        "text_2": "The Studio",
+        "text_3": "Care",
+        "text_4": "Jobs+",
+        "text_5": "Contact",
+        "text_6": "ENGLISH"
+    },
+    "welcome": {
+        "text_1": "WELCOME TO THE WEB OF THE STUDIO ``PICARTE TATTOOS´´",
+        "text_2": "Where the ink runs every day...",
+        "text_3": "If you'd like to book an appointment with us, please go directly to our contact page and tell us by phone, email or WhatsApp what you'd like to have done.",
+        "text_4": "If what you're looking for is inspiration, don't hesitate to visit our galleries in the tattoo sections",
+        "text_5": "Don't forget to also check out our advice on tattoo hygiene care.",
+        "text_6": "Book Your Appointment"
+    },
+    "Banner": "ARTISTIC TATTOO STUDIO",
+    "Info": {
+        "h2": "Get to Know Picarte Tattoos",
+        "text": "PICARTE TATTOOS is an artistic tattoo and piercing studio founded in 2015 under the pseudonym of its founder, Leonel. Since its beginnings as a tattoo artist, and since the opening date of the studio, Picarte Tattoo has positioned itself in the province of Mtànzas as a reference thanks to the artistic and technical quality of its tattoos. The Artist has extensive experience in all types of styles, from the most vintage to the most rebellious and contemporary. From our website, we hope you discover inspiration in our work and encourage you to come visit us to tell us what you'd like to have done."
+    },
+    "Review": "Leave Us Your Rating",
+    "TattooStudio": {
+        "h2": "The Studio",
+        "text": "Studio Information",
+        "text_1": "Foundation and name of the Picarte Tattoo studio and its artist who has been dedicated body and soul to the world of tattooing since 2015. The premises opened to the public in 2016, and the current location has been accommodating the team since 2017 with a larger and more modern installation, providing a total of 1 air-conditioned tattoo room and other amenities"
+    },
+    "TattooAftercare": {
+        "h2": "Tattoo Care",
+        "span": "Advice and recommendations",
+        "text": "It is essential to follow the advice given by your tattoo artist to care for your new tattoo, it is not recommended to ignore them if you want to maintain a tattoo that will last and make you feel that your investment was worth it. When you leave the studio you become responsible for your tattoo and over time it will be possible to see if it received the necessary care during the healing process. It is impossible to avoid the scarring process, but you can achieve through your care that in the end there remains on your body an excellent work of art.",
+        "text_1": "After getting tattooed",
+        "span_1": "Remove the bandage placed by the tattoo artist after 5 hours",
+        "text_2": "Keep your tattoo clean",
+        "span_2": "Wash the tattoo with warm water and neutral soap/gel using your hands (no sponge) and dry it patting (not dragging) with a clean towel or paper towels.",
+        "text_3": "Apply ointment",
+        "span_3": "Let the tattoo dry slightly in the air, about 10-15 minutes, and apply a thin and transparent layer of ointment. The ointment should be applied in very thin layers 3-4 times a day for 2 weeks.",
+        "text_4": "Don't cover your tattoo",
+        "span_4": "DO NOT re-cover the tattoo with any type of bandages or dressings.",
+        "text_5": "Pools, beaches, bathtubs...",
+        "span_5": "For two weeks avoid moistening the tattooed area (do not immerse in pools, beach, bathtub, spa, etc.) Wash the tattoo maximum 2 times a day.",
+        "text_6": "Sun and heat",
+        "span_6": "DO NOT expose the tattooed area to the sun or heat sources, it is recommended to wear it covered by a garment to avoid contamination.",
+        "text_7": "Take care of your tattoo",
+        "span_7": "DO NOT scratch or rub or scrape the tattoo.",
+        "text_8": "Sweat and exercise",
+        "span_8": "Avoid sweating (exercise, etc.) for two weeks.",
+        "imp": "Very important",
+        "p": "Tattoos and piercings will not be performed on pregnant women.",
+        "p2": "No tattoos or piercings will be performed on minors under 16 years old.",
+        "p3": "If you are a carrier of hepatitis B, VHI or any contagious disease, please inform us"
+    },
+    "Jobs": "WORK GALLERY"
 }

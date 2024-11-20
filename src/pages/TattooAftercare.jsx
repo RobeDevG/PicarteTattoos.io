@@ -25,74 +25,74 @@ function TattooAftercare() {
         <div className='flex flex-col max-w-screen-2xl'>
           <div className='flex pt-16 lg:flex-row flex-col justify-center lg:justify-normal items-center'>
             <p className='m-4 sm:ml-24 sm:mr-16 font-font-Kelly max-w-xl sm:text-3xl text-2xl text-center sm:text-start '>{t("TattooAftercare.text")}</p>
-            <img className='lg:mr-6 lg:ml-5 max-w-xl mt-8 lg:mt-0 w-72 sm:w-auto' src={Cuidadoss} alt="" />
+            <img className='lg:mr-6 lg:ml-5 max-w-xl mt-8 lg:mt-0 w-72 sm:w-auto' src={Cuidadoss} alt="foto de tatuaje" />
           </div>
           <div className='lg:ml-24 mt-4 flex flex-col gap-4'>
             <div className='flex items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion1} alt="" />
+              <img className='mr-8' src={numeracion1} alt="cuidados" />
               <div className='font-font-slider mt-4 md:mt-0 flex-col'>
                 <p className='text-3xl'>{t("TattooAftercare.text_1")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_1")}</p>
               </div>
             </div>
             <div className='flex items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion2} alt="" />
+              <img className='mr-8' src={numeracion2} alt="cuidados" />
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_2")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_2")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion3} alt="" />
+              <img className='mr-8' src={numeracion3} alt="cuidados" />
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_3")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_3")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion4} alt="" />
+              <img className='mr-8' src={numeracion4} alt="cuidados" />
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_4")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_4")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion5} alt="" />
+              <img className='mr-8' src={numeracion5} alt="cuidados" />
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_5")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_5")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion6} alt="" />
+              <img className='mr-8' src={numeracion6} alt="cuidados" />
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_6")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_6")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion7} alt="" />
+              <img className='mr-8' src={numeracion7} alt="cuidados" />
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_7")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_7")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion8} alt="" />
+              <img className='mr-8' src={numeracion8} alt="cuidados" />
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_8")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_8")}</p>
               </div>
             </div>
           </div>
-          <div className=' text-center md:ml-28 mt-24 flex flex-col'>
-          <p className='font-custom-font text-5xl mb-16'>{t("TattooAftercare.imp")}</p>
-          <span className='font-font-slider text-2xl'>{t("TattooAftercare.p")}</span>
-          <span className='font-font-slider text-2xl'>{t("TattooAftercare.p2")}</span>
-          <span className='font-font-slider text-2xl'>{t("TattooAftercare.p3")}</span>
+          <footer className=' text-center md:ml-28 mt-24 flex flex-col'>
+            <p className='font-custom-font text-5xl mb-16'>{t("TattooAftercare.imp")}</p>
+            <span className='font-font-slider text-2xl'>{t("TattooAftercare.p")}</span>
+            <span className='font-font-slider text-2xl'>{t("TattooAftercare.p2")}</span>
+            <span className='font-font-slider text-2xl'>{t("TattooAftercare.p3")}</span>
+          </footer>
         </div>
-        </div>
-        
+
       </div>
     </section>
   )

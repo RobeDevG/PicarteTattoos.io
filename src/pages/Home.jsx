@@ -10,14 +10,14 @@ import Footer from '../component/Footer'
 function Home() {
   return (
     <section>
-        <Header/>
-    <Welcome/>
-    <Slaider/>
-    <Banner/>
-    <Info/>
-    <Review/>
-    <Video/>
-    <Footer/>
+      <Header />
+      <Welcome />
+      <Slaider />
+      <Banner />
+      <Info />
+      <Review />
+      <Video />
+      <Footer />
     </section>
   )
 }

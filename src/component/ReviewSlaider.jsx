@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, FreeMode} from 'swiper/modules';
+import { Autoplay, FreeMode } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -31,7 +31,7 @@ export default function ReviewSlaider() {
 
     return (
         <Swiper
-            modules={[Autoplay,FreeMode]}
+            modules={[Autoplay, FreeMode]}
             spaceBetween={50}
             slidesPerView={1}
             autoplay={{
@@ -43,9 +43,9 @@ export default function ReviewSlaider() {
             className='linear-slider mb-6'
             freeMode={true}
             breakpoints={{
-                1100: { slidesPerView: 3},
-                606: { slidesPerView: 2},
-                380: { slidesPerView: 1,speed:6000}
+                1100: { slidesPerView: 3 },
+                606: { slidesPerView: 2 },
+                380: { slidesPerView: 1, speed: 6000 }
             }}
         >
             {reviews.map((reviews, index) => {

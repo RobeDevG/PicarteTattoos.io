@@ -20,19 +20,19 @@ export default function Slaider() {
       navigation
       pagination={{ clickable: true }}
       breakpoints={{
-        1500: { slidesPerView: 5},
-        1024: { slidesPerView: 4},
-        600: { slidesPerView: 3},
-        380: { slidesPerView: 2}
+        1500: { slidesPerView: 5 },
+        1024: { slidesPerView: 4 },
+        600: { slidesPerView: 3 },
+        380: { slidesPerView: 2 }
       }}
     >
 
-      <SwiperSlide><img src={foto2} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={SliderFoto_1} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={foto3} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={SliderFoto_3} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={SliderFoto_2} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={SliderFoto_4} alt="" /></SwiperSlide>
+      <SwiperSlide><img src={foto2} alt="tatuajes" /></SwiperSlide>
+      <SwiperSlide><img src={SliderFoto_1} alt="tatuajes" /></SwiperSlide>
+      <SwiperSlide><img src={foto3} alt="tatuajes" /></SwiperSlide>
+      <SwiperSlide><img src={SliderFoto_3} alt="tatuajes" /></SwiperSlide>
+      <SwiperSlide><img src={SliderFoto_2} alt="tatuajes" /></SwiperSlide>
+      <SwiperSlide><img src={SliderFoto_4} alt="tatuajes" /></SwiperSlide>
 
     </Swiper>
 

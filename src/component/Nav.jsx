@@ -11,8 +11,14 @@ import { NavLink } from 'react-router-dom'
 
 function Nav() {
 
-  const [t,i18n] = useTranslation("global")
+  const [t, i18n] = useTranslation("global")
   const [isOpen, setIsOpen] = useState(false)
+  const [isChecked, setIsChecked] = useState(false)
+  const handlesClick =()=>{
+    setIsChecked(!isChecked)
+  }
+
+
   return (
     <nav className="flex justify-between items-center z-10 fixed backdrop-blur-sm top-0 right-0 left-0 border-nav-o">
       <img src={Frame} alt="" />
@@ -35,15 +41,14 @@ function Nav() {
           <NavLink to='/TattooStudio' className='font-custom-font' href="">{t("nav.text_2")}</NavLink>
           <NavLink to='/TattooAftercare' className='font-custom-font' href="">{t("nav.text_3")}</NavLink>
           <NavLink to='/Jobs' className='font-custom-font' href="">{t("nav.text_4")}</NavLink>
-          <a className='mb-4 relative border_before font-custom-font' href="">{t("nav.text_5")}</a>
+          <NavLink to='/Contact' className='mb-4 relative border_before font-custom-font' href="">{t("nav.text_5")}</NavLink>
           <div className='relative'>
-          <input type="checkbox" id='idioma' className='hidden check' onChange={() => i18n.changeLanguage(i18n.language === "es" ? "en" : "es")} />
-                <label className='absolute top-0 -left-10 flex items-center cursor-pointer on duration-300 font-custom-font' htmlFor="idioma" ><img className='' width={"50px"} src={GreatBritain} alt="" /> {t("nav.text_6")}</label>
-                <label className='absolute top-0 -left-10 flex items-center cursor-pointer of duration-300 font-custom-font' htmlFor="idioma" ><img className=''  width={"50px"} src={SpainFlag} alt="" />{t("nav.text_6")}</label>
+            <input type="checkbox" id='idioma' className='hidden check' checked={isChecked} onChange={() => i18n.changeLanguage(i18n.language === "es" ? "en" : "es")} />
+            <label className='absolute top-0 -left-10 flex items-center cursor-pointer on duration-300 font-custom-font' onClick={()=>handlesClick()} htmlFor="idioma" ><img width={"50px"} src={GreatBritain} alt="" /> {t("nav.text_6")}</label>
+            <label className='absolute top-0 -left-10 flex items-center cursor-pointer of duration-300 font-custom-font' onClick={()=>handlesClick()} htmlFor="idioma" ><img width={"50px"} src={SpainFlag} alt="" />{t("nav.text_6")}</label>
           </div>
         </div>
       </div>
-
     </nav>
   )
 }

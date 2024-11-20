@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import TattooStudio from './pages/TattooStudio'
 import TattooAftercare from './pages/TattooAftercare'
 import Jobs from './pages/Jobs'
+import Contact from './pages/Contact'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/TattooStudio' element={<TattooStudio/>}/>
         <Route path='/TattooAftercare' element={<TattooAftercare/>}/>
         <Route path='/Jobs' element={<Jobs/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
       </Routes>
     </BrowserRouter>
   )
