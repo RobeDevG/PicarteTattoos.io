@@ -51,5 +51,35 @@
         "p2": "No tattoos or piercings will be performed on minors under 16 years old.",
         "p3": "If you are a carrier of hepatitis B, VHI or any contagious disease, please inform us"
     },
-    "Jobs": "WORK GALLERY"
+    "Jobs": "WORK GALLERY",
+    
+    "Contact": {
+        "h2": "Contact",
+        "h3": "Get in touch and tell us what you want",
+        "text_1": "If what you're looking for is inspiration, don't hesitate to visit our",
+        "span_1": "work galleries",
+        "text_2": "We also recommend that you check out our section on",
+        "span_2": "tattoo care advice",
+        "text_3": "for tattoos",
+
+        "title_1": "ADDRESS",
+        "des_1": "164/168 and 166 #16402",
+        "title_2": "CONTACT INFORMATION",
+        "des_2": "Lionel",
+        "title_3": "PHONE",
+        "des_3": "+53 58672669",
+        "title_4": "EMAIL",
+        "des_4": "Lioneletcetc@gmail.com",
+        "title_5": "HOURS",
+        "des_5": "Monday-Saturday 8am-5pm",
+
+        "title_form": "CONTACT FORM",
+        "des_form": "Please fill out this form if you have any questions or would like to write us a message:",
+        "label_1": "Name*",
+        "label_2": "Email*",
+        "label_3": "Subject*",
+        "label_4": "Message*",
+        
+        "title_u": "We Are Located At"
+    }
 }
