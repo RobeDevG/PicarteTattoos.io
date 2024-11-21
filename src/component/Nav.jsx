@@ -31,7 +31,7 @@ function Nav() {
       </div>
 
       <label className="burger" htmlFor="burger">
-        <input checked={isChecked} onClick={() => { handleClick() }} type="checkbox" id="burger" />
+        <input checked={isChecked} onChange={()=>{}} onClick={() => { handleClick() }} type="checkbox" id="burger" />
         <span></span>
         <span></span>
         <span></span>

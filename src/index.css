@@ -122,9 +122,21 @@
 .numbs_2{
  max-width: 709px;
 }
+.numbs_3{
+ max-width: 768px;
+}
 .box-shadow{
   box-shadow: 0px -12px 46px 0px rgba(255, 255, 255, 0.26);
 }
+.box-shadowimp{
+  box-shadow: 0px 5px 0px 0px #A1A1A1;
+
+}
 .span-red{
   color: #A52525;
+}
+.google-map-code{
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
 }

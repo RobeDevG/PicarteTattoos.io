@@ -59,8 +59,26 @@
         "span_1":"galerías de trabajos",
         "text_2":"Te recomendamos también que te pases por nuestro apartado de",
         "span_2":"cuidados y consejos",
-        "text_3":"para tatuajes "
+        "text_3":"para tatuajes",
 
+        "title_1":"DIRECCIÓN",
+        "des_1":"calle 164/ 168 y 166 #16402",
+        "title_2":"DATOS DE CONTACTO",
+        "des_2":"Lionel",
+        "title_3":"Teléfono",
+        "des_3":"+53 58672669",
+        "title_4":"Email",
+        "des_4":"Lioneletcetc@gmail.com",
+        "title_5":"HORARIO",
+        "des_5":"Lunes-Sabado 8am-5pm",
 
+        "title_form":"FORMULARIO DE CONTACTO",
+        "des_form":"Por favor rellena este formulario si tienes cualquier pregunta o te gustaría escribirnos un mensaje:",
+        "label_1":"Nombre*",
+        "label_2":"Email*",
+        "label_3":"Asunto*",
+        "label_4":"Mensaje*",
+        
+        "title_u":"Nos Ubicamos En"
     }
 }
