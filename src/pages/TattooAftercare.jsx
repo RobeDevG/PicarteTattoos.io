@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import Cuidadoss from '../assets/Cuidadoss.png'
+import Cuidadoss from '../assets/Cuidadoss.webp'
 import numeracion1 from '../assets/numeracion 1.png'
 import numeracion2 from '../assets/numeracion 2.png'
 import numeracion3 from '../assets/numeracion 3.png'
@@ -23,7 +23,7 @@ function TattooAftercare() {
         <div className='flex flex-col max-w-screen-2xl'>
           <div className='flex pt-16 lg:flex-row flex-col justify-center lg:justify-normal items-center'>
             <p className='m-4 sm:ml-24 sm:mr-16 font-font-Kelly max-w-xl sm:text-3xl text-2xl text-center sm:text-start '>{t("TattooAftercare.text")}</p>
-            <img className='lg:mr-6 lg:ml-5 max-w-xl mt-8 lg:mt-0 w-72 sm:w-auto' src={Cuidadoss} alt="foto de tatuaje" />
+            <img className='lg:mr-6 lg:ml-5 max-w-xl mt-8 lg:mt-0 w-72 sm:w-auto' loading="lazy" src={Cuidadoss} alt="foto de tatuaje" />
           </div>
           <div className='lg:ml-24 mt-4 flex flex-col gap-4'>
             <div className='flex items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
@@ -34,49 +34,49 @@ function TattooAftercare() {
               </div>
             </div>
             <div className='flex items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion2} alt="cuidados" />
+              <img className='mr-8' src={numeracion2} alt="cuidados" loading="lazy" />
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_2")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_2")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion3} alt="cuidados" />
+              <img className='mr-8' src={numeracion3} alt="cuidados" loading="lazy" />
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_3")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_3")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion4} alt="cuidados" />
+              <img className='mr-8' src={numeracion4} alt="cuidados" loading="lazy"/>
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_4")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_4")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion5} alt="cuidados" />
+              <img className='mr-8' src={numeracion5} alt="cuidados" loading="lazy"/>
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_5")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_5")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion6} alt="cuidados" />
+              <img className='mr-8' src={numeracion6} alt="cuidados" loading="lazy" />
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_6")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_6")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion7} alt="cuidados" />
+              <img className='mr-8' src={numeracion7} alt="cuidados" loading="lazy"/>
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_7")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_7")}</p>
               </div>
             </div>
             <div className='flex  items-center numbs md:flex-row flex-col md:text-start text-center mt-6 md:mt0'>
-              <img className='mr-8' src={numeracion8} alt="cuidados" />
+              <img className='mr-8' src={numeracion8} alt="cuidados" loading="lazy"/>
               <div className='font-font-slider mt-4 md:mt-0'>
                 <p className='text-3xl'>{t("TattooAftercare.text_8")}</p>
                 <p className='text-2xl'>{t("TattooAftercare.span_8")}</p>

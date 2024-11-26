@@ -1,5 +1,5 @@
 import ImgHome from '../assets/ImgHome.png'
-import '../assets/Tattoo Studio.png'
+
 function Header() {
 
   return (

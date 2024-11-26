@@ -42,6 +42,7 @@ export default function ReviewSlaider() {
             loop="true"
             className='linear-slider mb-6'
             freeMode={true}
+            loading="lazy"
             breakpoints={{
                 1100: { slidesPerView: 3 },
                 606: { slidesPerView: 2 },

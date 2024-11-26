@@ -4,12 +4,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import foto2 from '../assets/foto2.png'
-import foto3 from '../assets/foto3.png'
-import SliderFoto_1 from '../assets/SliderFoto_1.png'
-import SliderFoto_2 from '../assets/SliderFoto_2.png'
-import SliderFoto_3 from '../assets/SliderFoto_3.png'
-import SliderFoto_4 from '../assets/SliderFoto_4.png'
+import foto2 from '../assets/foto2.webp'
+import foto3 from '../assets/foto3.webp'
+import SliderFoto_1 from '../assets/SliderFoto_1.webp'
+import SliderFoto_2 from '../assets/SliderFoto_2.webp'
+import SliderFoto_3 from '../assets/SliderFoto_3.webp'
+import SliderFoto_4 from '../assets/SliderFoto_4.webp'
 export default function Slaider() {
   return (
 
@@ -19,6 +19,7 @@ export default function Slaider() {
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
+      loading="lazy"
       breakpoints={{
         1500: { slidesPerView: 5 },
         1024: { slidesPerView: 4 },

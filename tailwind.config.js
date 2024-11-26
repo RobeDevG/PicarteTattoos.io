@@ -7,15 +7,15 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-header-mobile': "url('./src/assets/Tattoo Studio.png')",
-        'bg-header-desk': "url('./src/assets/Tattoo Studio.png')",
-        'bg-Primary':"url('./src/assets/BgPrimary.png')",
-        'bg-Banner':"url('./src/assets/Banner.png')",
+        'bg-header-mobile': "url('./src/assets/Tattoo Studio.webp')",
+        'bg-header-desk': "url('./src/assets/Tattoo Studio.webp')",
+        'bg-Primary':"url('./src/assets/BgPrimary.webp')",
+        'bg-Banner':"url('./src/assets/Banner.webp')",
         'bg-Review':"url('./src/assets/Review.png')",
-        'bg-Banner_2':"url('./src/assets/Banner_2.png')",
-        'bg-Study':"url('./src/assets/bgstudy.png')",
-        'bg-Care':"url('./src/assets/BannerCuidados.png')",
-        'bg-Contact':"url('./src/assets/BannerContact.png')"
+        'bg-Banner_2':"url('./src/assets/Banner_2.webp')",
+        'bg-Study':"url('./src/assets/bgstudy.webp')",
+        'bg-Care':"url('./src/assets/BannerCuidados.webp')",
+        'bg-Contact':"url('./src/assets/BannerContact.webp')"
 
       },
       fontFamily:{

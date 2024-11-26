@@ -13,25 +13,25 @@ function Nav() {
 
   const [t, i18n] = useTranslation("global")
   const [isOpen, setIsOpen] = useState(false)
-  const [isChecked,setIsChecked] =useState(false)
-  const handleClick =()=>{
+  const [isChecked, setIsChecked] = useState(false)
+  const handleClick = () => {
     setIsOpen(!isOpen)
     setIsChecked(!isChecked)
   }
- 
+
 
 
   return (
     <nav className="flex justify-between items-center z-10 fixed backdrop-blur-sm top-0 right-0 left-0 border-nav-o">
       <img src={Frame} alt="" />
-      <div className="flex gap-6 mr-24 mt-2 mb-2 ">
-        <a href=""><img src={Facebook} width="51" alt="" /></a>
-        <a href=""><img src={Instagram} width="51" alt="" /></a>
-        <a href=""><img src={WhatsApp} width="51" alt="" /></a>
+      <div className="sm:flex gap-6 mr-24 mt-2 mb-2 hidden">
+        <a href=""><img src={Facebook} width="51" alt="" loading="lazy" /></a>
+        <a href=""><img src={Instagram} width="51" alt="" loading="lazy" /></a>
+        <a href=""><img src={WhatsApp} width="51" alt="" loading="lazy" /></a>
       </div>
 
       <label className="burger" htmlFor="burger">
-        <input checked={isChecked} onChange={()=>{}} onClick={() => { handleClick() }} type="checkbox" id="burger" />
+        <input checked={isChecked} onChange={() => { }} onClick={() => { handleClick() }} type="checkbox" id="burger" />
         <span></span>
         <span></span>
         <span></span>

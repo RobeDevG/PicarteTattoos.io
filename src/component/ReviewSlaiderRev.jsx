@@ -42,6 +42,7 @@ function ReviewSlaiderRev() {
             speed={6000}
             loop="true"
             className='linear-slider '
+            loading="lazy"
             freeMode={true}
             breakpoints={{
                 1100: { slidesPerView: 3 },

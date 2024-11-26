@@ -1,4 +1,4 @@
-
+import 'leaflet/dist/leaflet.css';
 import './App.css'
 import Home from './pages/Home'
 import TattooStudio from './pages/TattooStudio'
