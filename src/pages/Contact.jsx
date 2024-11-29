@@ -41,17 +41,17 @@ function Contact() {
           <h2 className='font-custom-font text-5xl mt-3 '>{t("Contact.title_form")}</h2>
           <p className='font-font-slider text-2xl mt-10 max-w-96 xl:max-w-xl'>{t("Contact.des_form")}</p>
           <form className='flex flex-col xl:items-stretch items-center justify-center xl:justify-stretch text-white' action="">
-            <label htmlFor="" className='font-font-slider text-2xl mt-24'>{t("Contact.label_1")}</label>
-            <input type="text" className='bg-[#262626] box-shadowimp numbs_3 h-20 mt-3 text-4xl' />
+            <label htmlFor="name" className='font-font-slider text-2xl mt-24'>{t("Contact.label_1")}</label>
+            <input type="text" id='name' className='bg-[#262626] box-shadowimp numbs_3 h-20 mt-3 text-4xl' />
 
-            <label htmlFor="" className='font-font-slider text-2xl mt-14'>{t("Contact.label_2")}</label>
-            <input type="email" className='bg-[#262626] box-shadowimp numbs_3 h-20 mt-3 text-4xl' />
+            <label htmlFor="email" className='font-font-slider text-2xl mt-14'>{t("Contact.label_2")}</label>
+            <input type="email" id='email' className='bg-[#262626] box-shadowimp numbs_3 h-20 mt-3 text-4xl' />
 
-            <label htmlFor="" className='font-font-slider text-2xl mt-14'>{t("Contact.label_3")}</label>
-            <input type="text" className='bg-[#262626] box-shadowimp numbs_3 h-20 mt-3 text-4xl' />
+            <label htmlFor="subject" className='font-font-slider text-2xl mt-14'>{t("Contact.label_3")}</label>
+            <input type="text" id='subject' className='bg-[#262626] box-shadowimp numbs_3 h-20 mt-3 text-4xl' />
 
-            <label htmlFor="" className='font-font-slider text-2xl mt-14'>{t("Contact.label_4")}</label>
-            <textarea type="text" className='bg-[#262626] box-shadowimp numbs_3 h-64 mt-3 text-4xl resize-none' />
+            <label htmlFor="message" className='font-font-slider text-2xl mt-14'>{t("Contact.label_4")}</label>
+            <textarea type="text" id='message' className='bg-[#262626] box-shadowimp numbs_3 h-64 mt-3 text-4xl resize-none' />
 
             <button className='bg-[#940B0B] w-40 h-12 font-custom-font text-4xl mt-7'>Enviar</button>
 
