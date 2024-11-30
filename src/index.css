@@ -149,31 +149,3 @@
   z-index: 9;
 }
 
-.bg-bg-header-mobile {
-  background-image: url("./src/assets/Tattoo Studio.webp");
-}
-.bg-bg-header-desk {
-  background-image: url("./src/assets/Tattoo Studio.webp");
-}
-.bg-bg-Primary {
-  background-image: url("./src/assets/BgPrimary.webp");
-}
-
-.bg-bg-Banner {
-  background-image: url("./src/assets/Banner.webp");
-}
-.bg-bg-Review {
-  background-image: url("./src/assets/Review.webp");
-}
-.bg-bg-Banner_2 {
-  background-image: url("./src/assets/Banner_2.webp");
-}
-.bg-bg-Study {
-  background-image: url("./src/assets/bgstudy.webp");
-}
-.bg-bg-Care {
-  background-image: url("./src/assets/BannerCuidados.webp");
-}
-.bg-bg-Contact {
-  background-image: url("./src/assets/BannerContact.webp");
-}
