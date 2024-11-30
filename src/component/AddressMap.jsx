@@ -11,6 +11,7 @@ export const AddressMap = () => {
         center={position}
         style={{ height: "400px", width: "80%", borderRadius: "20px" }}
         zoom={1}
+        className="zindex"
         
       >
         <TileLayer
