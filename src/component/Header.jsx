@@ -1,4 +1,4 @@
-import ImgHome from '../assets/ImgHome.png'
+import ImgHome from '../assets/ImgHome.webp'
 
 function Header() {
 
