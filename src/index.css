@@ -1,80 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 .burger {
-    position: absolute;
-    width: 40px;
-    height: 30px;
-    background: transparent;
-    cursor: pointer;
-    display: block;
-    right: 20px;
-    top: 20px;
-  }
-  
-  .burger input {
-    display: none;
-  }
-  
-  .burger span {
-    display: block;
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    background: rgb(255, 255, 255);
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
-  }
-  
-  .burger span:nth-of-type(1) {
-    top: 0px;
-    transform-origin: left center;
-  }
-  
-  .burger span:nth-of-type(2) {
-    top: 50%;
-    transform: translateY(-50%);
-    transform-origin: left center;
-  }
-  
-  .burger span:nth-of-type(3) {
-    top: 100%;
-    transform-origin: left center;
-    transform: translateY(-100%);
-  }
-  
-  .burger input:checked ~ span:nth-of-type(1) {
-    transform: rotate(45deg);
-    top: 0px;
-    left: 5px;
-  }
-  
-  .burger input:checked ~ span:nth-of-type(2) {
-    width: 0%;
-    opacity: 0;
-  }
-  
-  .burger input:checked ~ span:nth-of-type(3) {
-    transform: rotate(-45deg);
-    top: 28px;
-    left: 5px;
-  }
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+  right: 20px;
+  top: 20px;
+}
 
-.border_before::before{
+.burger input {
+  display: none;
+}
+
+.burger span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.burger span:nth-of-type(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+.burger span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: left center;
+}
+
+.burger span:nth-of-type(3) {
+  top: 100%;
+  transform-origin: left center;
+  transform: translateY(-100%);
+}
+
+.burger input:checked ~ span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: 0px;
+  left: 5px;
+}
+
+.burger input:checked ~ span:nth-of-type(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.burger input:checked ~ span:nth-of-type(3) {
+  transform: rotate(-45deg);
+  top: 28px;
+  left: 5px;
+}
+
+.border_before::before {
   content: "";
   border: dotted 2px white;
   position: absolute;
@@ -82,65 +82,98 @@
   width: 100%;
   pointer-events: none;
 }
-.text_shadow{
+.text_shadow {
   filter: drop-shadow(4px 4px 1px black);
-  text-shadow:2px 2px 2px rgb(0, 0, 0), 4px 4px 2px rgb(0, 0, 0),6px 6px 2px rgb(0, 0, 0);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0), 4px 4px 2px rgb(0, 0, 0),
+    6px 6px 2px rgb(0, 0, 0);
   -webkit-text-stroke-width: 12;
   -webkit-text-stroke-color: #000;
 }
-.text_shadow_B{
-  filter: drop-shadow(4px 8px 4px black) 
+.text_shadow_B {
+  filter: drop-shadow(4px 8px 4px black);
 }
 .swiper-button-next,
-.swiper-button-prev{
- color: white;
+.swiper-button-prev {
+  color: white;
 }
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   background-color: white;
 }
-.swiper-review{
+.swiper-review {
   max-width: 475px;
   height: 230px;
 }
-.linear-slider{
+.linear-slider {
   transition-timing-function: linear;
 }
-.shadow-bg{
+.shadow-bg {
   box-shadow: 0px -9px 4.7px 0px rgba(0, 0, 0, 0.43);
 }
-.border-nav-o{
+.border-nav-o {
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
 
   background: rgba(22, 21, 21, 0.66);
 }
-.gradient{
-  fill: linear-gradient(0deg, rgba(0, 0, 0, 0.67) 77.3%, rgba(102, 102, 102, 0.67) 100%);
+.gradient {
+  fill: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.67) 77.3%,
+    rgba(102, 102, 102, 0.67) 100%
+  );
 }
-.numbs{
- max-width: 960px;
+.numbs {
+  max-width: 960px;
 }
-.numbs_2{
- max-width: 709px;
+.numbs_2 {
+  max-width: 709px;
 }
-.numbs_3{
- max-width: 600px;
+.numbs_3 {
+  max-width: 600px;
 }
-.box-shadow{
+.box-shadow {
   box-shadow: 0px -12px 46px 0px rgba(255, 255, 255, 0.26);
 }
-.box-shadowimp{
-  box-shadow: 0px 5px 0px 0px #A1A1A1;
-
+.box-shadowimp {
+  box-shadow: 0px 5px 0px 0px #a1a1a1;
 }
-.span-red{
-  color: #A52525;
+.span-red {
+  color: #a52525;
 }
-.google-map-code{
+.google-map-code {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: hidden;
 }
-.zindex{
+.zindex {
   z-index: 9;
+}
+
+.bg-bg-header-mobile {
+  background-image: url("./src/assets/Tattoo Studio.webp");
+}
+.bg-bg-header-desk {
+  background-image: url("./src/assets/Tattoo Studio.webp");
+}
+.bg-bg-Primary {
+  background-image: url("./src/assets/BgPrimary.webp");
+}
+
+.bg-bg-Banner {
+  background-image: url("./src/assets/Banner.webp");
+}
+.bg-bg-Review {
+  background-image: url("./src/assets/Review.webp");
+}
+.bg-bg-Banner_2 {
+  background-image: url("./src/assets/Banner_2.webp");
+}
+.bg-bg-Study {
+  background-image: url("./src/assets/bgstudy.webp");
+}
+.bg-bg-Care {
+  background-image: url("./src/assets/BannerCuidados.webp");
+}
+.bg-bg-Contact {
+  background-image: url("./src/assets/BannerContact.webp");
 }
