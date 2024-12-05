@@ -42,7 +42,7 @@ function Contact() {
           <p className='font-font-slider text-2xl mt-10 max-w-96 xl:max-w-xl'>{t("Contact.des_form")}</p>
           <form className='flex flex-col xl:items-stretch items-center justify-center xl:justify-stretch text-white' action="">
             <label htmlFor="name" className='font-font-slider text-2xl mt-24'>{t("Contact.label_1")}</label>
-            <input type="text" id='name' className='bg-[#262626] box-shadowimp numbs_3 h-20 mt-3 text-4xl' />
+            <input type="text" id='name' className='bg-[#262626] box-shadowimp w-[300px] sm:w-[] h-20 mt-3 text-4xl' />
 
             <label htmlFor="email" className='font-font-slider text-2xl mt-14'>{t("Contact.label_2")}</label>
             <input type="email" id='email' className='bg-[#262626] box-shadowimp numbs_3 h-20 mt-3 text-4xl' />
