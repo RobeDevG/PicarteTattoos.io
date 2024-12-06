@@ -145,4 +145,11 @@
 .zindex {
   z-index: 9;
 }
-
+.swiper-container {
+   user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; }
+  .swiper-slide img {
+     user-select: none;
+    -webkit-user-drag: none; }

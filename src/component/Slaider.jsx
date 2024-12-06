@@ -17,7 +17,7 @@ export default function Slaider() {
       modules={[Navigation, Pagination]}
       spaceBetween={1}
       slidesPerView={1}
-      navigation
+      navigation={ {preventClicks: true }}
       pagination={{ clickable: true }}
       loading="lazy"
       breakpoints={{
@@ -26,6 +26,7 @@ export default function Slaider() {
         600: { slidesPerView: 3 },
         380: { slidesPerView: 2 }
       }}
+     
     >
 
       <SwiperSlide><img src={foto2} alt="tatuajes" /></SwiperSlide>
