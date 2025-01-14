@@ -24,6 +24,7 @@ function App() {
     <BrowserRouter style={hiddenStyle}>
       <Nav />
       <Routes>
+      <Route path='/*' element={<Home />} />
         <Route path='/' element={<Home />} />
         <Route path='/TattooStudio' element={<TattooStudio />} />
         <Route path='/TattooAftercare' element={<TattooAftercare />} />
