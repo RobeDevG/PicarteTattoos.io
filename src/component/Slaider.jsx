@@ -21,6 +21,7 @@ export default function Slaider() {
       pagination={{ clickable: true }}
       loading="lazy"
       breakpoints={{
+        1600: { slidesPerView: 5 },
         1500: { slidesPerView: 5 },
         1024: { slidesPerView: 4 },
         600: { slidesPerView: 3 },
